@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dal Bo Consultancy · Backend &amp; Cloud Help for Small Companies</title>
   <meta name="description" content="Software systems you can trust, with AI done right. For small companies: audits, fixes and new builds with Java, Kotlin, Spring Boot and AWS. Based in Harrogate, working remotely across the UK. Get in touch for a 30-minute intro call.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dalboconsultancy.com/">
+  <meta property="og:title" content="Dal Bo Consultancy · Software systems you can trust, with AI done right">
+  <meta property="og:description" content="Audits, fixes and new builds for small companies, with Java, Kotlin, Spring Boot and AWS. Leandro Dal Bo, Harrogate, UK.">
+  <meta property="og:image" content="https://dalboconsultancy.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,10 +110,17 @@
 
       <!-- CALL CARD -->
       <div id="call" class="rounded-xl bg-white p-7 text-navy shadow-2xl">
+        <div class="mb-5 flex items-center gap-4">
+          <img src="profile.jpg" alt="Leandro Dal Bo" width="64" height="64" class="h-16 w-16 rounded-full object-cover ring-4 ring-safety">
+          <div>
+            <p class="font-display text-lg font-bold leading-tight">Leandro Dal Bo</p>
+            <p class="text-sm text-slateink">Dal Bo Consultancy</p>
+          </div>
+        </div>
         <h2 class="font-display text-2xl font-bold">Book a 30-minute intro call</h2>
         <ol class="mt-5 space-y-4 text-sm text-slateink">
-          <li class="flex gap-3"><span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky font-display font-bold text-navy">1</span><span>Email me a few lines about your problem.</span></li>
-          <li class="flex gap-3"><span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky font-display font-bold text-navy">2</span><span>We talk for 30 minutes (Teams, Zoom or phone).</span></li>
+          <li class="flex gap-3"><span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky font-display font-bold text-navy">1</span><span>Email me a short description of your problem.</span></li>
+          <li class="flex gap-3"><span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky font-display font-bold text-navy">2</span><span>We'll have a chat about it (Teams, Zoom or phone).</span></li>
           <li class="flex gap-3"><span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky font-display font-bold text-navy">3</span><span>I send a short written proposal with a fixed price.</span></li>
         </ol>
         <div class="mt-6 space-y-3">
@@ -125,107 +143,152 @@
       <div class="fade-up rounded-lg border border-navy/10 bg-sky p-7 transition hover:-translate-y-1 hover:shadow-lg">
         <svg class="h-10 w-10 text-navy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/></svg>
         <h3 class="mt-4 font-display text-2xl font-bold">Backend &amp; Cloud Audit</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slateink">Something feels slow, fragile or too expensive, but you're not sure why. I review your system's design, data and cloud setup, and give you a short, clear report: the main problems, the risks, the savings, and what to do first.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slateink">Something feels slow, fragile or too expensive, but you're not sure why. I'll review your system and cloud setup to give you a short, clear report: the main problems, the risks, the savings, and what we can do to improve it.</p>
         <p class="mt-4 text-sm font-bold text-navy">Fixed price &middot; 1 to 2 weeks</p>
       </div>
       <div class="fade-up rounded-lg border border-navy/10 bg-sky p-7 transition hover:-translate-y-1 hover:shadow-lg">
         <svg class="h-10 w-10 text-navy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 18l9 5 9-5"/></svg>
         <h3 class="mt-4 font-display text-2xl font-bold">Build &amp; Improve</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slateink">A new API, a link to another system, or a part of your platform that needs fixing. I design it, build it with tests, document it, and hand it over properly.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slateink">A new API, an integration with external systems, or a part of your platform that needs fixing. I design it, build it with automated tests, document it, and hand it over properly.</p>
         <p class="mt-4 text-sm font-bold text-navy">Fixed price per project, or by the day</p>
       </div>
       <div class="fade-up rounded-lg border border-navy/10 bg-sky p-7 transition hover:-translate-y-1 hover:shadow-lg">
         <svg class="h-10 w-10 text-navy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/></svg>
         <h3 class="mt-4 font-display text-2xl font-bold">AI for Your Team</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slateink">Your team wants to use AI to move faster, but you worry about quality. I show them a tested way to do it (TDCG, my own method) on your own project, and support them as they grow.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slateink">Your team wants to use AI to move faster, but you worry about breaking things. I'll introduce them to a tested way of doing it (TDCG) on your own project, and guide them step by step until the results are consistent.</p>
         <p class="mt-4 text-sm font-bold text-navy">Workshop + optional mentoring</p>
       </div>
     </div>
   </section>
 
-  <!-- ============ WHY US ============ -->
+  <!-- ============ WHY ME ============ -->
   <section id="why" class="bg-sky py-24">
     <div class="mx-auto max-w-6xl px-5">
-      <h2 class="fade-up font-display text-4xl font-extrabold md:text-5xl">Why neighbors call us first</h2>
+      <h2 class="fade-up font-display text-4xl font-extrabold md:text-5xl">Why work with me</h2>
       <div class="mt-12 grid gap-x-10 gap-y-8 md:grid-cols-2">
         <div class="fade-up flex gap-5">
           <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded bg-safety font-display text-xl font-extrabold text-navy">1</span>
           <div>
-            <h3 class="font-display text-xl font-bold">The quote is the price</h3>
-            <p class="mt-1 text-sm leading-relaxed text-slateink">Flat-rate pricing agreed in writing before we open a toolbox. No hourly meter running while we work.</p>
+            <h3 class="font-display text-xl font-bold">You come first</h3>
+            <p class="mt-1 text-sm leading-relaxed text-slateink">I measure my work by one thing: are you happy with the result? I start from your problem, not from the technology, and you see progress every week, not a big surprise at the end.</p>
           </div>
         </div>
         <div class="fade-up flex gap-5">
           <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded bg-safety font-display text-xl font-extrabold text-navy">2</span>
           <div>
-            <h3 class="font-display text-xl font-bold">On time or it's free</h3>
-            <p class="mt-1 text-sm leading-relaxed text-slateink">We give you a 2-hour window and a text when we're 20 minutes out. Miss the window and the service call fee is on us.</p>
+            <h3 class="font-display text-xl font-bold">Good practices, good products</h3>
+            <p class="mt-1 text-sm leading-relaxed text-slateink">Tests first, small releases, and a simple design that stays easy to change. These habits from Extreme Programming are what turn software into a product you can rely on. With or without AI, a bad design only grows faster.</p>
           </div>
         </div>
         <div class="fade-up flex gap-5">
           <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded bg-safety font-display text-xl font-extrabold text-navy">3</span>
           <div>
-            <h3 class="font-display text-xl font-bold">Guaranteed for 2 years</h3>
-            <p class="mt-1 text-sm leading-relaxed text-slateink">Every repair is covered by a written 2-year parts and labor warranty. If it fails, we fix it free.</p>
+            <h3 class="font-display text-xl font-bold">Clear communication</h3>
+            <p class="mt-1 text-sm leading-relaxed text-slateink">Early in my career I read Kent Beck's <em>Extreme Programming Explained</em>, and one idea stayed with me: communication is the key to success. You get plain answers and a short update whenever you need it.</p>
           </div>
         </div>
         <div class="fade-up flex gap-5">
           <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded bg-safety font-display text-xl font-extrabold text-navy">4</span>
           <div>
-            <h3 class="font-display text-xl font-bold">Respect for your home</h3>
-            <p class="mt-1 text-sm leading-relaxed text-slateink">Shoe covers, floor runners, and a full cleanup before we leave. You'd never know we were there, except the plumbing works.</p>
+            <h3 class="font-display text-xl font-bold">I figure things out</h3>
+            <p class="mt-1 text-sm leading-relaxed text-slateink">Nobody has every answer, and I won't pretend to. What I bring is a way to find them together: we ask the right questions, try ideas in baby steps, and amplify what the whole team can do.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ SERVICE AREA ============ -->
+  <!-- ============ HOW IT WORKS ============ -->
   <section id="how" class="mx-auto grid max-w-6xl gap-10 px-5 py-24 md:grid-cols-2 md:items-center">
     <div class="fade-up">
-      <h2 class="font-display text-4xl font-extrabold">Service area</h2>
-      <p class="mt-4 leading-relaxed text-slateink">Based at 52 Dockside Road, we cover the whole metro within a 25-mile radius. Same-day service in:</p>
-      <ul class="mt-6 grid grid-cols-2 gap-2 text-sm font-semibold">
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Downtown</li>
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Riverside</li>
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Oak Hills</li>
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Fairview</li>
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Milton Park</li>
-        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Westgate</li>
+      <h2 class="font-display text-4xl font-extrabold">How it works</h2>
+      <p class="mt-4 leading-relaxed text-slateink">Once you accept the proposal, I work in short cycles. At the end of each one, you see real, working results, and we decide together what we do next.</p>
+      <p class="mt-6 text-sm font-bold text-navy">Every project includes:</p>
+      <ul class="mt-3 grid grid-cols-2 gap-2 text-sm font-semibold">
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Written scope and fixed price</li>
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Short iterations</li>
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Automated tests</li>
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Regular updates</li>
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Clear documentation</li>
+        <li class="flex items-center gap-2"><svg class="h-4 w-4 text-safety" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Proper handover</li>
       </ul>
-      <p class="mt-6 text-sm text-slateink">Outside the radius? Call anyway. We often fit edge-of-town jobs in on the way home.</p>
+      <p class="mt-6 text-sm text-slateink">Based in Harrogate. I work remotely across the UK, and I'm happy to meet in person when it helps.</p>
     </div>
     <div class="fade-up">
-      <!-- MAP SLOT: replace with an embedded Google Map iframe of your service area -->
-      <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-navy">
-        <div class="absolute inset-0 opacity-40" style="background-image: radial-gradient(circle at 30% 40%, rgba(255,183,3,.5), transparent 30%), radial-gradient(circle at 70% 60%, rgba(255,255,255,.15), transparent 40%); "></div>
+      <!-- ITERATION LOOP (was the template's map slot) -->
+      <div class="relative flex flex-col items-center justify-center gap-8 overflow-hidden rounded-xl bg-navy px-6 py-12 md:py-16">
+        <div class="absolute inset-0 opacity-40" style="background-image: radial-gradient(circle at 30% 40%, rgba(45,212,191,.45), transparent 30%), radial-gradient(circle at 70% 60%, rgba(255,255,255,.15), transparent 40%); "></div>
         <div class="absolute inset-0" style="background-image: linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px); background-size: 32px 32px;"></div>
-        <p class="absolute inset-x-0 bottom-6 text-center text-xs font-bold tracking-[0.25em] text-white/60">Embed your Google Map here</p>
+        <div class="relative">
+          <div class="space-y-4">
+            <div class="flex items-center gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-safety font-display font-extrabold text-navy">1</span>
+              <span class="font-display text-3xl font-extrabold text-white">Plan</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-safety font-display font-extrabold text-navy">2</span>
+              <span class="font-display text-3xl font-extrabold text-white">Build</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-safety font-display font-extrabold text-navy">3</span>
+              <span class="font-display text-3xl font-extrabold text-white">Show</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-safety font-display font-extrabold text-navy">4</span>
+              <span class="font-display text-3xl font-extrabold text-white">Adjust</span>
+            </div>
+          </div>
+        </div>
+        <p class="relative text-center text-xs font-bold tracking-[0.25em] text-white/60">Repeat the cycle</p>
       </div>
     </div>
   </section>
 
-  <!-- ============ REVIEWS ============ -->
+  <!-- ============ PROJECTS ============ -->
   <section id="projects" class="bg-navy py-24 text-white">
     <div class="mx-auto max-w-6xl px-5">
-      <h2 class="fade-up font-display text-4xl font-extrabold md:text-5xl">4.9 from 300+ local reviews</h2>
-      <div class="mt-12 grid gap-6 md:grid-cols-3">
-        <figure class="fade-up rounded-lg bg-white/5 p-7">
-          <blockquote class="text-sm leading-relaxed text-white/85">&ldquo;Water heater died Saturday morning, new one running by 4pm the same day. The price they texted me is the price I paid.&rdquo;</blockquote>
-          <figcaption class="mt-5 text-xs font-bold tracking-wider text-safety">Mike T. &middot; Riverside</figcaption>
+      <h2 class="fade-up font-display text-4xl font-extrabold md:text-5xl">Real work you can check</h2>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <figure class="fade-up flex flex-col rounded-lg bg-white/5 p-6">
+                    <img src="football.png" alt="Open Football Project screenshot" loading="lazy" onerror="this.remove()" class="mb-5 aspect-video w-full rounded object-cover object-[center_60%]">
+          <figcaption class="text-xs font-bold tracking-wider text-safety">Build &amp; Improve</figcaption>
+          <h3 class="mt-2 font-display text-2xl font-bold">Open Football Project</h3>
+          <p class="mt-3 text-sm leading-relaxed text-white/85">A football platform I designed, built and run myself: a Kotlin and Spring Boot API, live match updates in real time, and web and mobile apps built with React and React Native. It's now open source.</p>
+          <p class="mt-4 text-sm font-semibold text-white"><a href="https://footballproject.org" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">footballproject.org</a> &middot; <a href="https://github.com/Open-Football-Project" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">GitHub</a></p>
         </figure>
-        <figure class="fade-up rounded-lg bg-white/5 p-7">
-          <blockquote class="text-sm leading-relaxed text-white/85">&ldquo;Showed me the drain camera footage before and after. First plumber who ever proved the job was done.&rdquo;</blockquote>
-          <figcaption class="mt-5 text-xs font-bold tracking-wider text-safety">Angela R. &middot; Oak Hills</figcaption>
+        <figure class="fade-up flex flex-col rounded-lg bg-white/5 p-6">
+          <figcaption class="text-xs font-bold tracking-wider text-safety">Backend &amp; Cloud Audit</figcaption>
+          <h3 class="mt-2 font-display text-2xl font-bold">From AWS to Hetzner</h3>
+          <p class="mt-3 text-sm leading-relaxed text-white/85">I moved the whole platform from AWS to Hetzner, managed with Terraform. The server bill dropped by about 60%, and with twice the memory I added server-side rendering, so Google now indexes the site much faster.</p>
+          <div class="mt-5 space-y-3 text-xs font-semibold" aria-label="Monthly server cost: AWS about 17 dollars, Hetzner 6.50 dollars">
+            <div>
+              <div class="mb-1 flex justify-between text-white/70"><span>AWS</span><span>~$17 / month</span></div>
+              <div class="h-3 w-full rounded-full bg-white/25"></div>
+            </div>
+            <div>
+              <div class="mb-1 flex justify-between text-safety"><span>Hetzner</span><span>$6.50 / month</span></div>
+              <div class="h-3 rounded-full bg-safety" style="width: 38%"></div>
+            </div>
+          </div>
         </figure>
-        <figure class="fade-up rounded-lg bg-white/5 p-7">
-          <blockquote class="text-sm leading-relaxed text-white/85">&ldquo;They were 10 minutes late and genuinely tried to waive the fee. I made them take it. That's the kind of company this is.&rdquo;</blockquote>
-          <figcaption class="mt-5 text-xs font-bold tracking-wider text-safety">Sam K. &middot; Downtown</figcaption>
+        <figure class="fade-up flex flex-col rounded-lg bg-white/5 p-6">
+          <figcaption class="text-xs font-bold tracking-wider text-safety">AI for Your Team</figcaption>
+          <h3 class="mt-2 font-display text-2xl font-bold">TDCG: AI done right</h3>
+          <p class="mt-3 text-sm leading-relaxed text-white/85">This is how I use AI safely: tests are agreed first, AI does the implementation, then a careful review. I started using it while building the Open Football Project, with great results.</p>
+          <div class="mt-5 flex flex-wrap items-center gap-2 text-xs font-bold"><span class="flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-safety text-navy">1</span>Tests</span><span class="text-safety" aria-hidden="true">&rarr;</span><span class="flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-safety text-navy">2</span>AI</span><span class="text-safety" aria-hidden="true">&rarr;</span><span class="flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-safety text-navy">3</span>Review</span></div>
+          <p class="mt-4 text-sm font-semibold text-white"><a href="https://github.com/leandrodalbo/TDCG" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">GitHub</a></p>
+        </figure>
+        <figure class="fade-up flex flex-col rounded-lg bg-white/5 p-6">
+          <img src="lavarapi.png" alt="Lavarapi website screenshot" loading="lazy" onerror="this.remove()" class="mb-5 aspect-video w-full rounded object-cover object-top">
+          <figcaption class="text-xs font-bold tracking-wider text-safety">Built for a small business</figcaption>
+          <h3 class="mt-2 font-display text-2xl font-bold">Lavarapi</h3>
+          <p class="mt-3 text-sm leading-relaxed text-white/85">A website for my family's laundry in Pergamino, Argentina: services, opening hours and one-tap WhatsApp contact. Built step by step with the owners, and live today.</p>
+          <p class="mt-4 text-sm font-semibold text-white"><a href="https://lavarapi.com" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">lavarapi.com</a></p>
         </figure>
       </div>
       <div class="fade-up mt-12 text-center">
-        <a href="tel:+15550142" class="inline-block rounded bg-safety px-10 py-4 font-display text-xl font-bold text-navy transition hover:bg-white">Call (555) 014-2400</a>
-        <p class="mt-4 text-sm text-white/60">Or <a href="#quote" class="underline decoration-safety underline-offset-4">request a quote</a> and we'll call you.</p>
+        <a href="mailto:leandro.e.dal.bo@gmail.com?subject=30-minute%20intro%20call" class="inline-block rounded bg-safety px-10 py-4 font-display text-xl font-bold text-navy transition hover:bg-white">Email me</a>
+        <p class="mt-4 text-sm text-white/60">Or <a href="https://www.linkedin.com/in/leandrodlb" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4">message me on LinkedIn</a>.</p>
       </div>
     </div>
   </section>
@@ -233,10 +296,10 @@
   <!-- ============ FOOTER ============ -->
   <footer class="bg-navydeep py-10 text-center text-sm text-white/60">
     <div class="mx-auto max-w-6xl px-5">
-      <p class="font-display text-lg font-bold text-white">Anchor Plumbing &amp; Drain</p>
-      <p class="mt-2">52 Dockside Road &middot; Your City, ST 00000 &middot; (555) 014-2400</p>
-      <p class="mt-2">Master Plumber License #ML-000000 &middot; Bonded &amp; Insured</p>
-      <p class="mt-4 text-xs">&copy; 2026 Anchor Plumbing &amp; Drain. All rights reserved.</p>
+      <p class="font-display text-lg font-bold text-white">Dal Bo Consultancy</p>
+      <p class="mt-2">Leandro Dal Bo, sole trader &middot; Harrogate, UK</p>
+      <p class="mt-2"><a href="mailto:leandro.e.dal.bo@gmail.com" class="underline decoration-safety underline-offset-4 transition hover:text-safety">Email</a> &middot; <a href="https://www.linkedin.com/in/leandrodlb" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">LinkedIn</a> &middot; <a href="https://github.com/leandrodalbo" target="_blank" rel="noopener" class="underline decoration-safety underline-offset-4 transition hover:text-safety">GitHub</a></p>
+      <p class="mt-4 text-xs">&copy; 2026 Dal Bo Consultancy &middot; This site uses no cookies or tracking.</p>
     </div>
   </footer>
 
@@ -261,12 +324,16 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Plumber",
-    "name": "Anchor Plumbing & Drain",
-    "telephone": "(555) 014-2400",
-    "address": { "@type": "PostalAddress", "streetAddress": "52 Dockside Road", "addressLocality": "Your City" },
-    "openingHours": "Mo-Su 00:00-24:00",
-    "priceRange": "$$"
+    "@type": "ProfessionalService",
+    "name": "Dal Bo Consultancy",
+    "description": "Software systems you can trust, with AI done right. Backend and cloud audits, builds and AI workshops for small companies.",
+    "url": "https://dalboconsultancy.com/",
+    "image": "https://dalboconsultancy.com/og-image.png",
+    "email": "leandro.e.dal.bo@gmail.com",
+    "founder": { "@type": "Person", "name": "Leandro Dal Bo" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Harrogate", "addressCountry": "GB" },
+    "areaServed": "GB",
+    "sameAs": ["https://www.linkedin.com/in/leandrodlb", "https://github.com/leandrodalbo"]
   }
   </script>
 </body>
